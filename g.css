@@ -1,0 +1,167 @@
+body {
+    background-image: url('space2.jpeg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+h1, p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: larger;
+}
+
+.header-flex-sandbox {
+    display: flex;
+    /*border-color: black;
+    border-style: solid;*/
+    margin: 25px auto;
+    padding: 0 10px 0 10px;
+}
+
+.first-flex-sandbox {
+    display: flex;
+    /*border-color: red;
+    border-style: solid;*/
+    margin: 25px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.second-flex-sandbox {
+    display: flex;
+    /*border-color: orange;
+    border-style: solid;*/
+    margin: 25px auto;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.third-flex-sandbox {
+    display: flex;
+    /*border-color: yellow;
+    border-style: solid;*/
+    margin: 25px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fourth-flex-sandbox {
+    display: flex;
+    /*border-color: green;
+    border-style: solid;*/
+    margin: 25px auto;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fifth-flex-sandbox {
+    display: flex;
+    /*border-color: blue;
+    border-style: solid;*/
+    margin: 25px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.one-fb {
+    justify-content: space-around;
+    margin: auto;
+}
+
+.first {
+    justify-content: space-between;
+    margin: auto;
+}
+
+.second {
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.third {
+    justify-content: space-between;
+    margin: auto;
+}
+
+.fourth {
+    justify-content: space-between;
+    margin: auto;
+}
+
+.fifth {
+    justify-content: space-between;
+    margin: auto;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: #FFD813;
+}
+
+#header-sb {
+    border-color: black;
+    border-style: solid;
+    min-height: 220px;
+    background-image: url('sky.png');
+    background-position: center;
+    background-position-x: 2290px;    
+}
+
+#reaze {
+    border-radius: 10%;
+    max-height: 175px;
+    max-width: 200px;
+}
+
+#wy {
+    border-radius: 10%;
+    max-height: 175px;
+    max-width: 180px;
+}
+
+#haj {
+    border-radius: 10%;
+    max-height: 175px;
+    max-width: 180px;
+}
+
+.nav-one {
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav {
+    border-color: black;
+    border-style: solid;
+    background-color: hsla(264, 90%, 13%, 100%);
+    margin: 5px 0;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+
+nav li > a{
+    text-decoration: none;
+    display: inline-flex;
+    margin: 10px;
+    color: honeydew;
+    text-align: center;
+}
+
+nav a:hover {
+    cursor:pointer;
+    color:greenyellow;
+}

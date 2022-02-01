@@ -1,0 +1,40 @@
+body {
+    background-image: url('space2.jpeg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    color: whitesmoke;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#btg {
+    border-color: orchid;
+    border-style: solid; 
+    margin: 10px auto; 
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+
+.execute{
+    display: flex;
+    border-color: blue;
+    border-style: solid;
+    margin: 10px auto;
+    justify-content: space-around;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding: 5px 0px 5px 0px;
+}
+
+#atc {
+    display: flex;
+}
+
+#bn {
+    display: flex;    
+}
