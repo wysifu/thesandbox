@@ -166,7 +166,7 @@ nav a:hover {
     color:greenyellow;
 }
 
-p span{
+p>span{
     color:black;
     background-color: black;
 }
