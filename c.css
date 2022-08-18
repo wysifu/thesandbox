@@ -1,0 +1,50 @@
+body {
+    background-image: url('space2.jpeg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: brown;
+}
+
+.container {
+    border-color: coral;
+    border-style: solid;
+    border-width: 8px;
+    width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    text-shadow: 2px 2px 3px yellow
+
+}
+
+.others {
+    border-color: cornflowerblue;
+    border-style: solid;
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+    text-shadow: 2px 2px 3px whitesmoke
+}
+
+.flex-sandbox {
+    display: flex;
+    background-color: DodgerBlue;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.flex-sandbox > div {
+    background-color: #f1f1f1;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+

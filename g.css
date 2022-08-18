@@ -165,3 +165,8 @@ nav a:hover {
     cursor:pointer;
     color:greenyellow;
 }
+
+p span{
+    color:black;
+    background-color: black;
+}
